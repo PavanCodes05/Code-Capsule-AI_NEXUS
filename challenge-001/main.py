@@ -26,7 +26,20 @@ Bounty: 25 pts
 """
 # Write your function here
 def first_unique_char(s: str) -> str:
-    pass
+<<<<<<< Updated upstream
+    for ch in s:
+        if s.count(ch)==1:
+            return ch
+    return""
+
+
+    
+=======
+    for i in s:
+        if s.count(i)==1:
+            return i
+    return ""
+>>>>>>> Stashed changes
 
 # Test cases
 def run_tests():
